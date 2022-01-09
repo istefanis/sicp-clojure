@@ -7,7 +7,7 @@ My solutions to exercises of the CS textbook ['Structure and Interpretation of C
 * Each `src` file is self-contained, and deals with either one or multiple related exercises
 * Tests are included in the `test` directory
 
-Currently only Chapter 1 solutions and tests are uploaded (but I expect to add more). Any corrections or  enhancements are welcome. Have fun!
+Currently only Chapter 1 and few Chapter 2 solutions and tests are uploaded (but I expect to add more). Any corrections or  enhancements are welcome. Have fun!
 
 ## License
 
