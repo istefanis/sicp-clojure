@@ -30,10 +30,13 @@
     a
     (gcd b (mod a b))))
 
-;instead of: {list, car, cdr, cadr} of other Lisp dialects,
-;in Clojure we can use: {vector, first, next, second} 
-;(a two-element vector does not resemble a cons pair, 
-;but a list of two elements)
+;in Clojure: 
+; - instead of: {car, cdr, cadr} of other Lisp dialects, 
+;   we use: {first, next, second} for selecting collection items
+; - instead of a 'cons' of two numbers 
+;   (which cannot be defined), we must use a collection: 
+;   ex. a 'seq' (consisting of chained 'cons'), or a 'vector'
+; - a 'list' is a 'seq', but not always the inverse
 
 (defn make-rat-version1 [n d]
     (vector n d))
