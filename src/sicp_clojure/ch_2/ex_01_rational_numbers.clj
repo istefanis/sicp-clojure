@@ -37,6 +37,7 @@
 ;   (which cannot be defined), we must use a collection: 
 ;   ex. a 'seq' (consisting of chained 'cons'), or a 'vector'
 ; - a 'list' is a 'seq', but not always the inverse
+; - '=' checks for collection type-independent equality
 
 (defn make-rat-version1 [n d]
     (vector n d))

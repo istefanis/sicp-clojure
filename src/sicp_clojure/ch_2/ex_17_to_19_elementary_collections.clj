@@ -31,6 +31,7 @@
 ;   (which cannot be defined), we must use a collection: 
 ;   ex. a 'seq' (consisting of chained 'cons'), or a 'vector'
 ; - a 'list' is a 'seq', but not always the inverse
+; - '=' checks for collection type-independent equality
 
 ;below, generic implementations accepting either 'seq' or 'vector' inputs 
 ;are provided when that is possible, or different implementations for

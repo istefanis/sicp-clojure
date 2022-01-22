@@ -32,7 +32,7 @@
 (defn print-equal? [x y]
   (println x y)
   (println (= x y))
-  (= x y))
+  (= x y))  ;collection type-independent equality
 
 (def item1 (rand-int 10))
 (def item2 (rand-int 10))
