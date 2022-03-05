@@ -36,6 +36,7 @@
 ; - instead of a 'cons' of two numbers 
 ;   (which cannot be defined), we must use a collection: 
 ;   ex. a 'seq' (consisting of chained 'cons'), or a 'vector'
+; - instead of: pair? we use: coll?
 ; - a 'list' is a 'seq', but not always the inverse
 ; - '=' checks for collection type-independent equality
 
